@@ -15,3 +15,5 @@ Ensure that you have the following installed on your local machine:
 ### Samples
 
 - [01 - Housing Location](01-housing-location) - Build your first Angular App by [angular.io](https://angular.io/tutorial/first-app)
+
+- [02 - Tour of Heroes](02-tour-of-heroes) - Build your own Angular application from the start by [angular.io](https://angular.io/tutorial/tour-of-heroes)
