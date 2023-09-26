@@ -1,27 +1,54 @@
-# 02TourOfHeroes
+# 02 - Tour of Heroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+## Description
+This *Tour of Heroes* tutorial provides an introduction to the fundamentals of Angular and shows you how to:
+- Set up your local Angular development environment.
+- Use the Angular CLI to develop an application.
 
-## Development server
+The *Tour of Heroes* application that you build helps a staffing agency manage its stable - of heroes. The application has many of the features that you'd expect to find in any data-driven application.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The finished application:
+- Gets a list of heroes
+- Displays the heroes in a list
+- Edits a selected hero's details
+- Navigates between different views of heroic data
 
-## Code scaffolding
+## Screenshot
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![](docs/sample.png)
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Install the correct version of node.js for Angular
+If you do not have a version of `node.js`` installed, please follow the directions for [installation on nodejs.org](https://nodejs.org/en/download/)
 
-## Running unit tests
+### Install Angular CLI
+With `node.js` and `npm` installed, the next step is to install the [Angular CLI](https://angular.io/cli) which provides tooling for effective Angular development.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Install integrated development environment (IDE)
 
-## Running end-to-end tests
+You are free to use any tool you prefer to build apps with Angular. We recommend the following:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Visual Studio Code](https://code.visualstudio.com/)
+- As an optional, but recommended step you can further improve your developer experience by installing the [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 
-## Further help
+### Clone the repository
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/tsjdev-apps/angular-playground.git
+cd angular-playground/02-tour-of-heroes
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the application
+
+```bash
+ng serve
+```
+
+You should now be able to view the app in your browser at http://localhost:4200.
